@@ -1,0 +1,27 @@
+.search-result-content {
+	display: flex;
+  align-items: center;
+  padding:  42px 15px 30px;
+  margin: 0px 74.5px;
+}
+
+.link-home {
+	font-size: 14px;
+  color: #999999;
+  text-decoration: none;
+}
+
+.link-home:hover, .link-search-result:hover {
+  text-decoration: underline;
+}
+
+.search-result-bar {
+  padding: 0px 11px 0px 8px;
+  color: #6c757d;
+}
+
+.link-search-result {
+  color: #444444;
+  font-size: 14px;
+  text-decoration: none;
+}
