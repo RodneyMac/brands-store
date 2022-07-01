@@ -34,11 +34,6 @@ const Navbar = () => {
       </div>
       <IoSearch className="input-navbar-mobile-icon"/>
       <input type="text" className='input-mobile' placeholder='Buscar...'/>
-      {/* <div className='div-search-result'>
-        <a href='#home' className='link-home'>Home</a>
-        <p className='search-result-bar'>/</p>
-        <a href='#search-result' className='link-search-result'>Resultados de búsqueda</a>
-      </div> */}
     </div>
   )
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../components/Header/Header';
 import Navbar from '../components/Navbar/Navbar';
+import Product from '../components/Product/Product';
 import SearchResult from '../components/SearchResult/SearchResult';
 
 const HomeView = () => {
@@ -9,6 +10,7 @@ const HomeView = () => {
       <Header/>
       <Navbar/>
       <SearchResult/>
+      <Product/>
     </div>
   )
 }
