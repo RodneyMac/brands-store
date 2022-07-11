@@ -1,5 +1,8 @@
 .navbar-container {
 	width: 100%;
+  max-width: 1366px;
+  display: flex;
+  flex-direction: column;
 }
 
 .navbar-top {
@@ -41,7 +44,6 @@
 	font-size: 1rem;
 	color: #494047;
 	padding-left: 0.8rem;
-	/* transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out; */
 }
 
 .div-nabvar-icons {
@@ -125,40 +127,26 @@
   display: none;
 }
 
-@media (max-width: 1120px) {
-	.input-navbar-icon {
-		margin-left: 40%;
-	}
-}
+@media(max-width: 1200px) {
+  .input-navbar {
+    width: 100%;
+    max-width: 248px;
+    height: 40px;
+  }
 
-@media (max-width: 1100px) {
-	.input-navbar-icon {
-		margin-left: 42%;
-	}
-}
+  .input-navbar-icon {
+    margin-right: 168px;
+  }
 
-@media (max-width: 1000px) {
-	.input-navbar-icon {
-		margin-left: 44%;
-	}
-}
+  .div-img-dexter {
+    width: 100%;
+    max-width: 230.5px;
+  }
 
-@media (max-width: 950px) {
-	.input-navbar-icon {
-		margin-left: 50%;
-	}
-}
-
-@media (max-width: 900px) {
-	.input-navbar-icon {
-		margin-left: 52%;
-	}
-}
-
-@media (max-width: 800px) {
-	.input-navbar-icon {
-		margin-left: 60%;
-	}
+  .btn-navbar-bottom {
+    width: 100%;
+    max-width: 691.5px;
+  }
 }
 
 @media (max-width: 766px) {
@@ -198,7 +186,8 @@
 }
 
 @media (max-width: 700px) {
-	.input-navbar-icon {
-		margin-left: 65%;
-	}
+  .input-navbar-mobile-icon {
+    margin-left: 8%;
+    margin-top: 85px;
+  }
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import "../views/HomeView.css";
 import Header from '../components/Header/Header';
 import Navbar from '../components/Navbar/Navbar';
 import Product from '../components/Product/Product';
